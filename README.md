@@ -1,13 +1,13 @@
-# Fees Management System
+# Fees Management System 
 
 ## 📌 Project Purpose
-The **Fees Management System** is a simple Java console application designed for an educational institution's examination branch to manage student fee records.  
+The **Fees Management System** is a simple Python console application designed for an educational institution's examination branch to manage student fee records.  
 It allows:
 - Viewing student details.
 - Making fee payments.
 - Keeping track of total fees paid and outstanding dues.
 
-This project is ideal for beginners learning **Java OOP concepts**, **ArrayList usage**, and **console-based menu-driven applications**.
+This project is ideal for beginners learning **Python OOP concepts**, **lists**, and **console-based menu-driven applications**.
 
 ---
 
@@ -20,32 +20,31 @@ This project is ideal for beginners learning **Java OOP concepts**, **ArrayList 
 ---
 
 ## 🛠️ Technologies Used
-- **Language:** Java (JDK 8 or higher)
-- **IDE (Optional):** IntelliJ IDEA, Eclipse, NetBeans, or any Java-supported IDE
-- **Java Concepts Used:**
+- **Language:** Python (version 3.6 or higher)
+- **Editor (Optional):** VS Code, PyCharm, Sublime Text, or any Python-supported editor
+- **Python Concepts Used:**
   - Classes & Objects
-  - Encapsulation (private variables with public getters/setters)
-  - ArrayList Collection
+  - Encapsulation (private attributes with getter methods)
+  - Lists for storing multiple students
   - Loops & Conditional Statements
-  - Scanner for user input
+  - `input()` for user input
 
 ---
 
 ## 🚀 How to Run the Project
 
 ### Requirements
-- Install **Java JDK** (version 8 or higher) → [Download JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
-- A Java-compatible IDE **OR** a terminal/command prompt.
+- Install **Python** (version 3.6 or higher) → [Download Python](https://www.python.org/downloads/)
+- A code editor or terminal.
 
 ---
 
 ### Running in Terminal
-1. **Save Files**  
-   Save `Student.java` and `FeesManagementSystem.java` in the same folder.
+1. **Save File**  
+   Save the Python code as `fees_management_system.py`.
 
 2. **Open Terminal** in that folder.
 
-3. **Compile the Program**
+3. **Run the Program**
    ```bash
-   javac Student.java FeesManagementSystem.java
-
+   python fees_management_system.py
